@@ -1,4 +1,4 @@
-## 🎨 Proje Açıklaması
+![image](https://github.com/user-attachments/assets/9522a0d4-6371-449c-b59a-b346d53b6994)## 🎨 Proje Açıklaması
 Hesap Makinesi - Basit ve kullanıcı dostu bir hesap makinesi uygulaması. Matematiksel işlemleri kolaylıkla yapın ve temiz arayüz ile keyif alın!
 
 ## 🚀 Özellikler
@@ -23,7 +23,7 @@ hesap-makinesi/
 \`\`\`
 
 ## 📸 Ekran Görüntüleri
-![Hesap Makinesi](https://via.placeholder.com/800x400?text=Hesap+Makinesi)
+![Hesap Makinesi](https://i.hizliresim.com/alrni1x.PNG)
 
 ## 🤝 Katkıda Bulunma
 Katkıda bulunmak isterseniz, lütfen bir pull request gönderin veya bir issue açın. Her türlü katkı değerlidir!
