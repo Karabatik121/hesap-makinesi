@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(136, 136, 136, 0.7);
+            border-radius: 10px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(85, 85, 85, 0.9);
+        }
+        ::-webkit-scrollbar-thumb:active {
+            background: rgba(68, 68, 68, 1);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen transition-colors duration-300">
+    <div class="calculator p-8 rounded-2xl shadow-2xl w-80">
+        <div id="theme-toggle" class="flex justify-end mb-4">
+            <i id="theme-icon" class="fas fa-moon cursor-pointer p-2 bg-gray-800 rounded-full"></i>
+        </div>
+        <div class="mb-4">
+            <input type="text" id="display" class="display w-full bg-gray-800 text-right p-4 rounded-lg text-3xl text-white focus:outline-none" disabled>
+        </div>
+        <div class="grid grid-cols-4 gap-4 mb-4">
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="C">C</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="(">(</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value=")">)</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="Backspace"><i class="fas fa-backspace"></i></button>
+            
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="7">7</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="8">8</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="9">9</button>
+            <button class="button p-4 rounded-lg text-2xl text-yellow-400 focus:outline-none" data-value="/">/</button>
+
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="4">4</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="5">5</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="6">6</button>
+            <button class="button p-4 rounded-lg text-2xl text-yellow-400 focus:outline-none" data-value="*">*</button>
+
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="1">1</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="2">2</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value="3">3</button>
+            <button class="button p-4 rounded-lg text-2xl text-yellow-400 focus:outline-none" data-value="-">-</button>
+
+            <button class="button p-4 rounded-lg text-2xl col-span-2 focus:outline-none" data-value="0">0</button>
+            <button class="button p-4 rounded-lg text-2xl focus:outline-none" data-value=".">.</button>
+            <button class="button p-4 rounded-lg text-2xl text-green-400 focus:outline-none" data-value="=">=</button>
+        </div>
+        <div id="history-container" class="mt-4">
+            <div id="history" class="history p-4 bg-gray-800 rounded-lg text-white"></div>
+            <button id="clear-history" class="button p-4 rounded-lg text-2xl focus:outline-none bg-red-500 text-white w-full mt-2">Geçmişi Temizle</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
