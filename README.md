@@ -1,5 +1,6 @@
-![image](https://github.com/user-attachments/assets/9522a0d4-6371-449c-b59a-b346d53b6994)## 🎨 Proje Açıklaması
-Hesap Makinesi - Basit ve kullanıcı dostu bir hesap makinesi uygulaması. Matematiksel işlemleri kolaylıkla yapın ve temiz arayüz ile keyif alın!
+
+# 🎨 Proje Açıklaması
+**Hesap Makinesi** - Basit ve kullanıcı dostu bir hesap makinesi uygulaması. Matematiksel işlemleri kolaylıkla yapın ve temiz arayüz ile keyif alın!
 
 ## 🚀 Özellikler
 - Temel aritmetik işlemler: Toplama, çıkarma, çarpma, bölme
@@ -33,6 +34,5 @@ Bu proje MIT lisansı ile lisanslanmıştır - ayrıntılar için \`LICENSE\` do
 
 ## İletişim
 Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bana ulaşın:
-- **E-posta:** bahceciridvan27@gmail.com
+- **E-posta:** [bahceciridvan27@gmail.com](mailto:bahceciridvan27@gmail.com)
 - **GitHub:** [Karabatik121](https://github.com/Karabatik121)
-" > README.md
