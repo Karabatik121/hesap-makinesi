@@ -10,18 +10,16 @@
 ## 🛠️ Kurulum
 Projeyi yerel makinenize klonlamak için aşağıdaki adımları izleyin:
 
-\`\`\`sh
+```sh
 git clone https://github.com/Karabatik121/hesap-makinesi.git
 cd hesap-makinesi
-\`\`\`
+```
 
 ## 📂 Dosya Yapısı
-\`\`\`plaintext
 hesap-makinesi/
 ├── index.html
 ├── script.js
 └── styles.css
-\`\`\`
 
 ## 📸 Ekran Görüntüleri
 ![Hesap Makinesi](https://i.hizliresim.com/alrni1x.PNG)
