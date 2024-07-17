@@ -12,5 +12,5 @@
 Projeyi yerel makinenize klonlamak için aşağıdaki adımları izleyin:
 
 ```sh
-git clone https://github.com/Karabatik121/Hesap-Makinesi.git
+git clone https://github.com/Karabatik121/hesap-makinesi.git
 cd Hesap-Makinesi
