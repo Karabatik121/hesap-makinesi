@@ -1,16 +1,3 @@
-
-### Adımlar
-
-1. `README.md` dosyasını oluşturun ve yukarıdaki içeriği ekleyin.
-2. Değişiklikleri Git'e ekleyin ve commit edin.
-3. Değişiklikleri GitHub'a gönderin.
-
-### Komutlar
-
-```sh
-cd "C:\Users\Acer\Desktop\Hesap Makinesi"
-echo "# Hesap Makinesi
-
 ## 🎨 Proje Açıklaması
 Hesap Makinesi - Basit ve kullanıcı dostu bir hesap makinesi uygulaması. Matematiksel işlemleri kolaylıkla yapın ve temiz arayüz ile keyif alın!
 
