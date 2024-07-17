@@ -16,10 +16,12 @@ cd hesap-makinesi
 ```
 
 ## 📂 Dosya Yapısı
+<pre>
 hesap-makinesi/
 ├── index.html
 ├── script.js
 └── styles.css
+</pre>
 
 ## 📸 Ekran Görüntüleri
 ![Hesap Makinesi](https://i.hizliresim.com/alrni1x.PNG)
